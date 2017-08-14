@@ -1,5 +1,8 @@
 -- https://en.wikibooks.org/wiki/SQL_Exercises/The_computer_store
 
+/* http://sqlfiddle.com/#!9/75b55/121/0
+*/
+
 -- 3of20 
 select Name, Price from Products where Price <= 200;
 
@@ -11,3 +14,5 @@ SELECT * FROM Products
 
 -- 5of20
 select Name, 100* Price as PriceCents from Products;
+
+-- 6of20

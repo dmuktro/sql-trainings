@@ -4,3 +4,10 @@
 select Name, Price from Products where Price <= 200;
 
 -- 4of20
+select Name, Price from Products where 60 <= Price <= 200;
+-- 4of20 , variant 
+SELECT * FROM Products
+   WHERE Price BETWEEN 60 AND 120;
+
+-- 5of20
+select Name, 100* Price as PriceCents from Products;

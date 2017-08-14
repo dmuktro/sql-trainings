@@ -1,0 +1,6 @@
+-- https://en.wikibooks.org/wiki/SQL_Exercises/The_computer_store
+
+-- 3of20 
+select Name, Price from Products where Price <= 200;
+
+-- 4of20
